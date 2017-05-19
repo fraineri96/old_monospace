@@ -1,0 +1,96 @@
+body{
+	background: red;
+}
+.main-login{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background-color: #FFF9C4;
+}
+
+.mLogin-header{
+	background-color: #FFEB3B;
+	width: 30vw;
+	height: 100vh;
+	text-align: center;
+}
+
+.mLogin-header-logoCont{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+.mLogin-header-subtitle{
+	color: #fff;
+	text-shadow: 2px 2px rgba(0,0,0,.5);
+	font-size: 2.4vw;
+}
+
+.subtitle-mono{
+	color: #536DFE;
+	text-shadow: 2px 2px rgba(0,0,0,.8);
+}
+
+.content{
+	position: relative;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	background-color: #536DFE;
+	width: 70vw;
+	height: 100%;
+	padding-top: 30%; /******/
+	padding-bottom: 50%;
+	text-align: center;	
+}
+
+.mLogin-form-title{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 5vw;
+	text-transform: uppercase;
+}
+
+.mLogin-form{
+	padding-top: 50px;
+}
+
+.form-input{
+	display: block;
+	
+	padding: 5px;
+	margin: auto;
+	margin-top: 30px;
+	border: 2px solid #333;
+	border-radius: 15px;
+	
+	color: #333;
+	font-size: 2.5vw;
+	text-align: center;
+}
+
+.mLogin-signUp,
+.mLogin-forgot{
+	display: block;
+	padding: 5px;
+	color: #fff;
+	font-size: 1.5vw;
+}
+
+.mLogin-signUp{
+	margin-top: 40px;
+}
+
+.main-footer{
+	background-color: rgba(255,200,0,.7);
+	transform: none;
+	top: 100%;
+	left: 50%;
+	transform: translateY(-30px)
+				translateX(-50%);
+}
