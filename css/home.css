@@ -1,0 +1,57 @@
+.main-home{
+	width: 100vw;
+	height: 100vh;
+	background-color: #FFF9C4;
+}
+
+.mHome-header{
+	background-color: #FFEB3B;
+	display: block;
+	padding-top: 4vh;
+	padding-bottom: 30px;
+	margin: auto;
+	margin-bottom: 1vh;
+	margin-top: 0;
+	text-align: center;
+}
+
+
+.mHome-header-subtitle{
+	margin-top: 30px;
+	color: #fff;
+	text-shadow: 2px 2px rgba(0,0,0,.5);
+	font-size: 3.5vw;
+}
+
+.subtitle-mono{
+	color: #536DFE;
+	text-shadow: 2px 2px rgba(0,0,0,.8);
+}
+
+.mHome-buttons{
+	display: flex;
+	justify-content: space-around;
+
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.enter-button{	
+	display: inline-block;
+
+	background-color: #536DFE;
+	width: 22vw;
+
+	color: #fff;
+}
+
+.enter-button:hover{
+	color: #FFEB3B;
+	background-color: #536DFE;
+
+}
+.enter-button:active{
+	background-color: #FFEB3B;
+	color: #536DFE;
+}
