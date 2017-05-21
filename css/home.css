@@ -39,10 +39,10 @@
 
 .enter-button{	
 	display: inline-block;
-
+	
 	background-color: #536DFE;
 	width: 22vw;
-
+	margin-top: 8vh;
 	color: #fff;
 }
 
