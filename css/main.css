@@ -1,3 +1,11 @@
+/*
+	SCREEN: 	#C5C1C0;
+	STEEL:  	#0A1612;
+	DENIM:		#1A2930;
+	MARIGOLD:	#F7CE3E;
+
+*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -6,16 +14,23 @@
 	list-style: none;
 }
 
+body{
+	width: 100vw;
+    font-family: 'Droid Sans Mono', monospace;
+
+}
+
 #logo{
-	display: block;
-	background-color: #536DFE;
+	display: inline-block;
+	background-color: #696773;
 	width: 20vw;
 	height: 20vw;
+	padding-left: 1vw;
 	margin: auto;
 	border: 1px solid transparent;
 	border-radius: 50%;
 
-	color: #FFF9C4;
+	color: #fed766;
 	text-shadow: 2px 2px 5px #000;
 	font-size: 18vw;
 }
@@ -44,57 +59,3 @@
 /****************************
 		MAIN NAV
 ****************************/
-.main-nav{
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	
-	overflow: hidden;
-
-	background-color: rgba(255,200,0,.5);
-	background-: .7;
-	width: 100%;
-	height: 40px;
-	padding-top: 5px;
-	border: 3px solid rgba(200,100,0,.2);
-	border-bottom: none;
-	border-radius: 10px;
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
-	text-align: center;
-
-	transform: translateY(-40px)
-				translateX(-50%);
-	transition: height .5s,
-				top .5s;
-}
-
-.main-nav:hover{
-	height: 100%;
-	top: calc(0% + 40px);
-	transition: height .5s,
-				top .5s;
-}
-
-.main-nav i{
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.mNav-info{
-	display: block;
-	padding-bottom: 10px;
-	margin-bottom: 10%;
-	border-bottom: 3px solid rgba(200,100,0,.2);
-	color: #333;
-	font-size: 1.4vw;
-	font-weight: bold;
-	text-transform: uppercase; 
-}
-
-.mNav-item{
-	display: inline-block;
-	margin-bottom: 15px;
-	color: #333;
-	font-size: 1.4vw;
-}
