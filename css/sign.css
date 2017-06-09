@@ -9,7 +9,6 @@
 	
 	background-color: #eff1f3;
 	background-color: #222;
-/*	background-image: url("../img/bg-home.jpg");*/
 	background-image: url("../img/bg-sign.jpeg");
 	background-size: cover;
 	height: 100vh;
@@ -31,33 +30,6 @@
 	height: 100%;
 }
 
-
-.mLateral-title{
-	display: block;
-
-	width: 70%;
-	padding-top: 1.4vw;
-	padding-right: 15px;
-	margin: 0 auto;
-	border-bottom: 2px solid rgba(180,180,180);
-
-
-	color: #fff;
-	font-size: 2.4vw;
-	font-weight: lighter;
-}
-
-.mLateral-title-mono{
-	margin-top: 30px;
-	color: #fff;
-	text-shadow: 2px 2px rgba(0,0,0,.5);
-}
-
-.mLateral-title-space{
-	color: rgb(106, 181, 108);
-	text-shadow: 2px 2px rgba(0,0,0,.8);
-}
-
 /*****************************/
 
 .content{
@@ -73,6 +45,7 @@
 	background-color: rgba(240,240,240,.1);
 	background-color: rgba(24,24,24,.8);
 	width: 80%;
+	height: 90%;
 	padding: 6vh 0;
 	border: 3px solid rgba(240,240,240,.1);
 	border-radius: 25px; 
@@ -81,24 +54,37 @@
 }
 
 .mSign-form-title{
-	position: relative;
-/*	transform: translateY(-5vh);*/
+	height: 15%;
 	padding-bottom: 5vh;
 	color: rgb(106, 181, 108);
 	font-size: 5vw;
 	text-transform: uppercase;
 }
 
+.mSign-form{
+	position: relative;
+	height: 85%;
+}
+
+.formCont-inputs{
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .form-input{
-	background-color: transparent;
 	display: block;
+	background-color: transparent;
+	width: 40%;
 	margin: auto;
 	margin-top: 2vh;
+	margin-bottom: 4.5vh;
 	border: none;
 	border-bottom: 2px solid #eee;
 	
 	color: #fff;
-	font-size: 2.5vw;
+	font-size: 2.2vw;
 	text-align: center;
 }
 
@@ -115,11 +101,15 @@
 	color: #fff;
 	font-size: 1.5vw;
 }
-
-.enter-button{
-	margin-top: 3vh;
-	margin-bottom: 3vh;
+.mSign-signIn:hover,
+.mSign-signUp:hover,
+.mSign-forgot:hover{
+	color: rgb(106, 181, 108);
 }
 
-.main-nav{
+.formCont-footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%
 }
+

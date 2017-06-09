@@ -11,10 +11,21 @@
 <body>
 <div class="main-Sign">
 	<header class="mSign-header">
+		<nav class="main-nav">
+			<h3 class="mNav-menu">Menu</h3>
+			<ul class="mNav-list">
+				<li><a class="mNav-item" href="index.html">Home</a></li>
+				<li><a class="mNav-item" href="about.html">About</a></li>
+				<li><a class="mNav-item" href="#">Contact</a></li>
+				<li><a class="mNav-item" href="sign_in.html">Login</a></li>
+				<li><a class="mNav-item" href="sign_up.html">Sign Up</a></li>
+			</ul>
+		</nav>
+
 		<div class="mSign-header-logoCont">
 			<h1 class="mSign-header-title">
 				<a href="index.html"><i id="logo" class="fa fa-rocket" aria-hidden="true"></i></a>
-			<span class="mLateral-title"><span class="mLateral-title-mono">MONO</span><span class="mLateral-title-space">SPACE</span></span>
+			<span class="mSmall-title"><span class="mSmall-title-mono">MONO</span><span class="mSmall-title-space">SPACE</span></span>
 			</h1>
 		</div>
 	</header>
@@ -22,12 +33,16 @@
 		<div class="mSign-formCont">
 			<h3 class="mSign-form-title">Login</h3>
 			<form class="mSign-form">
-				<input class="form-input" type="text" name="" placeholder="USERNAME">			
-				<input class="form-input" type="password" name="" placeholder="PASSWORD">			
-				<input class="enter-button" type="submit" name="" value="ENTER!">
-				<a class="mSign-signUp" href="sign_up.html">Sign up</a></span>
-				<br>
-				<a class="mSign-forgot" href="#">Forgot your passowrd?</a></span>
+				<div class="formCont-inputs">
+					<input class="form-input" type="text" name="" placeholder="USERNAME">
+					<input class="form-input" type="password" name="" placeholder="PASSWORD">
+				</div>
+				<footer class="formCont-footer">
+					<input class="enter-button" type="submit" name="" value="ENTER!">
+					<a class="mSign-signUp" href="sign_up.html">Sign up</a></span>
+					<br>
+					<a class="mSign-forgot" href="#">Forgot your passowrd?</a></span>
+				</footer>
 			</form>
 		</div>
 	</div>
